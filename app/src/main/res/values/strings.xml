@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PodsGuard</string>
+    <string name="title">PodsGuard</string>
+    <string name="subtitle">Усиленная защита музыки от пауз AirPods</string>
+    <string name="access_title">Системный доступ</string>
+    <string name="access_description">Нужен доступ к уведомлениям, чтобы видеть активный музыкальный плеер и сразу возобновлять воспроизведение.</string>
+    <string name="open_access">Выдать доступ</string>
+    <string name="access_granted">Доступ выдан</string>
+    <string name="protection_title">Защита от случайной паузы</string>
+    <string name="protection_description">Версия 1.1 следит за плеером через callbacks и быстрый фоновый контроль. Если AirPods отправят паузу, приложение несколько раз безопасно пытается вернуть воспроизведение.</string>
+    <string name="only_bluetooth">Работать только с Bluetooth-наушниками</string>
+    <string name="delay_title">Задержка автопродолжения</string>
+    <string name="delay_fast">Мгновенно — около 80 мс</string>
+    <string name="delay_normal">Обычно — около 260 мс</string>
+    <string name="delay_safe">Мягко — около 650 мс</string>
+    <string name="pause_once">Разрешить паузу на 15 секунд</string>
+    <string name="pause_once_description">Нажми перед тем, как специально поставить музыку на паузу. Иначе защита сразу включит её обратно.</string>
+    <string name="how_it_works_title">Важно</string>
+    <string name="how_it_works">Обычный Android‑APK не может напрямую изменить внутренний переключатель AirPods «Автообнаружение уха». PodsGuard делает максимально быстрый обход: ловит остановку плеера, отправляет команду PLAY, проверяет результат и при необходимости повторяет её системной медиакнопкой.</string>
+    <string name="status_ready">Готово: защита может работать в фоне</string>
+    <string name="status_ready_v11">Готово: усиленная защита 1.1 работает</string>
+    <string name="status_enable_switch">Доступ выдан — включи защиту ниже</string>
+    <string name="background_title">Работа в фоне на iQOO / vivo</string>
+    <string name="background_description">На iQOO система может замораживать приложения. Открой настройки PodsGuard и выставь расход батареи «Без ограничений», а автозапуск — разрешить.</string>
+    <string name="open_app_settings">Открыть настройки приложения</string>
+    <string name="status_need_access">Сначала выдай системный доступ</string>
+    <string name="status_enabled">Защита включена</string>
+    <string name="status_disabled">Защита выключена</string>
+    <string name="bypass_active">Паузы разрешены ещё %1$d сек.</string>
+    <string name="permission_bluetooth_title">Разрешение Bluetooth</string>
+    <string name="permission_bluetooth_text">Разрешение нужно только для проверки, подключены ли Bluetooth-наушники. Приложение не сканирует устройства и никуда не отправляет данные.</string>
+    <string name="grant">Разрешить</string>
+    <string name="cancel">Не сейчас</string>
+</resources>

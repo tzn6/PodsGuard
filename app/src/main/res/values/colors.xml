@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_primary">#8BCB46</color>
+    <color name="green_dark">#5C9D20</color>
+    <color name="green_soft">#EEF8E4</color>
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#6B7075</color>
+    <color name="line">#E5E7E9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="warning_bg">#FFF7DF</color>
+    <color name="warning_text">#765B00</color>
+    <color name="red_soft">#FDEDEC</color>
+    <color name="red_text">#9B2C2C</color>
+</resources>
